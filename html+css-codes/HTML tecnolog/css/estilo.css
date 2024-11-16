@@ -1,0 +1,22 @@
+body{
+    background-color: #152540;
+}
+h1{
+    font-weight: bold;
+}
+div.dark{
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+    background-color: #12111f;
+}
+div.bottom{
+    border-bottom: solid #ffffff;
+}
+div.main{
+    border-left: solid #ffffff;
+    border-right: solid #ffffff;
+}
+div.top{
+    border-top: solid #ffffff;
+}
