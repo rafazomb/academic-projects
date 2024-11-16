@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/estilo.css" media="screen">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col dark bottom">
+                    <img src="img/logo-site.jpg" class="img-fluid" alt="Logo da marca da empresa tecnolog">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12"><br></div>
+            </div>
+            <div class="row">
+                <div class="col dark main bottom top">
+                    <form>
+                    <h1>Cadastro de pedido</h1>
+                    <p>Informações:</p>
+                    <input type="text" id="NomePedido" name="NomePedido" placeholder="Digite o nome do pedido"><br>
+                    <input type="text" id="codigo" name="codigo" placeholder="Digite o codigo do pedido"><br>
+                    <input type="email" name="email" placeholder="Digite o email do comprador"><br>
+                    <p>Endereço:</p>
+                    <input type="number" id="cep" name="cep" placeholder="Digite o cep para entrega" class="cep">&nbsp;&nbsp;
+                    <input type="number" id="numero" name="numero" placeholder="Número da casa" class="num"><br>
+                    <input type="text" id="rua" name="rua" placeholder="Verifique a rua para entrega"><br>
+                    <input type="text" id="cidade" name="cidade" placeholder="Verifique a cidade para entrega"><br>
+                    <input type="text" id="estado" name="estado" placeholder="Verifique o estado para entrega"><br><br>
+                    <input type="button" class="btn btn-success" value="Incluir">&nbsp;
+                    <input type="button" class="btn btn-secondary" value="Alterar">&nbsp;
+                    <input type="button" class="btn btn-secondary" value="Consutar">&nbsp;
+                    <input type="button" class="btn btn-danger" value="Excluir">&nbsp;
+                    <p><br></p>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12"><br></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col dark top">
+                    <ul style="list-style-type: none;">
+                        <li>Tecnolog</li>
+                        <li>Uma nova maneira de entregar com uma comunicação melhor entre cliente, vendedor e entregador.</li>
+                        <li>Feito por: </li>
+                        <li>- Rafael Henrique de Andrade Caratenuto</li>
+                    </ul>
+                </div>
+                <div class="col dark top">
+                    <ul style="list-style-type: none;">
+                        <li>Grupo:</li>
+                        <li>Gestão de entregas com carros autônomos</li>
+                        <li>- Daniel Ferreira Sousa</li>
+                        <li>- Oliver Kenzo Otani</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
